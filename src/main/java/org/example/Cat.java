@@ -2,8 +2,8 @@ package org.example;
 
 public class Cat extends Animal implements Walking, Voicing{
 
-    public Cat(String nickname, Integer age) {
-        super(nickname, age);
+    public Cat(String nickname, Integer age, Integer hungerLevel) {
+        super(nickname, age, hungerLevel);
     }
     @Override
     public void voice() {
